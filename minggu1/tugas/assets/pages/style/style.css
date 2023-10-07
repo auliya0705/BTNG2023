@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+.box1 {
+  width: 450px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 0.5px 15px 50px;
+  margin: 20px;
+  color: white;
+  background-color: #00a2c6;
+}
+
+.box2 {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 25px 25px 50px 25px;
+  margin: 20px;
+  color: white;
+  background-color: #00a2c6;
+}

@@ -1,0 +1,76 @@
+/* h1 {
+    color: rgb(32, 145, 190);
+} */
+
+/* # untuk id; . untuk class */
+
+h1 {
+  font-weight: 700;
+  color: green;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  background-color: beige;
+  font-family: "Times New Roman", Times, serif;
+}
+
+span {
+  color: red;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+#judul1 {
+  font-weight: 800;
+  color: red;
+  text-decoration: underline;
+}
+
+#judul2 {
+  font-weight: 800;
+  color: green;
+}
+
+.content {
+  background-color: beige;
+}
+
+#head1 #head2 {
+  color: rgb(9, 100, 69);
+}
+
+.container2 .content {
+  background-color: beige;
+}
+
+.container2 p {
+  color: black;
+}
+
+.box {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+/* .box a {
+  color: white;
+}
+
+.box:hover {
+  background-color: blue;
+  color: white;
+} */
+
+.box:hover > a {
+  color: violet;
+  background-color: brown;
+}
