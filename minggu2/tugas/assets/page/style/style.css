@@ -1,0 +1,86 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h2 {
+  color: cornflowerblue;
+  margin-top: 0.4cm;
+}
+
+h3 {
+  color: #00a2c6;
+}
+
+.first-img {
+  object-position: center;
+  object-fit: cover;
+  float: right;
+  width: 170px;
+  margin-left: 10px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: lightblue;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  float: center;
+}
+
+.profile img {
+  width: 60px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0.2);
+  border-radius: 5px;
+  padding: 15px 10px 10px 15px;
+  margin: 6px;
+}
+.jumbotron {
+  padding: 5px 5px 5px 5px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+#content {
+  float: left;
+  width: 100 %;
+}
+
+* {
+  box-sizing: border-box;
+}
